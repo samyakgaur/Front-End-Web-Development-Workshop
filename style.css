@@ -1,0 +1,137 @@
+body{
+	background-image: url(https://textureshot.com/wp-content/uploads/2018/11/Best-45-Web-Developer-Background-on-HipWallpaper-Developer.jpg);
+}
+
+
+
+p{
+	font-size: 2em;
+	color: red;
+	padding-top: 1em;
+}
+
+
+.paratext{
+	color: black;
+	font-family: Courier New;
+	font-variant: small-caps;
+	font-weight: bolder;
+}
+
+
+#imp_para{
+	color: white;
+	width: 30em;
+	border: dashed;
+	border-color: red;
+	border-radius: 15px;
+	border-width: 5px;
+	text-align: center;
+	background-color: black;
+}
+
+
+
+
+img{
+	width: 350px;
+	height: 350px;
+	border-radius: 50%;
+	float: left;
+	shape-outside: circle();
+}
+
+
+
+.quotation{
+  font-size: 30px;
+  //margin: 0 auto;
+  quotes: "\201C""\201D""\2018""\2019";
+  padding-bottom: 5px;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  line-height: 1.4;
+  border: dotted;
+  border-color: blue;
+}
+
+.quotation:before {
+  content: open-quote;
+  display: inline;
+  height: 0;
+  line-height: 0;
+  left: -10px;
+  position: relative;
+  top: 30px;
+  color: #ccc;
+  font-size: 3em;
+}
+.quotation::after {
+  content: close-quote;
+  display: inline;
+  height: 0;
+  line-height: 0;
+  left: 10px;
+  position: relative;
+  top: 35px;
+  color: #ccc;
+  font-size: 3em;
+}
+
+footer{
+  margin-right: 10em;
+  padding: 0;
+  text-align: right;
+  font-size: 1.5em;
+  font-style: italic;
+  font-variant: small-caps;
+}
+
+
+
+
+.nav_bar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	overflow: hidden;
+	top: 0;
+	border-radius: 20px;
+}
+.nav_bar li{
+	float: left;
+}
+.nav_bar li a{
+	display: inline-block;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	padding: 14px 16px;
+	font-size: 18px;
+}
+li a:hover{
+	background-color: black;
+	color: red;
+}
+
+
+
+@keyframes animation {
+	from{
+		letter-spacing: 25px;
+	}
+	to{
+		letter-spacing: 0px;
+	}
+}
+.animated{
+	text-align: center;
+	color: blue;
+	font-family: Comic Sans MS;
+	padding-bottom: 30px;
+	text-shadow: 3px 3px grey;
+	animation: animation ease;
+	animation-duration: 5s;	;
+}
