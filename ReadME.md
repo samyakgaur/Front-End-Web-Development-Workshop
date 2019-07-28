@@ -1,6 +1,6 @@
 ## Front End Web Development ##
 
-This repository was used to explain web developent to first year engineering students 
+This repository was used to explain web developent to first year engineering students.
 
 Basic codes to learn HTML and CSS 
 
