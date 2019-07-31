@@ -2,7 +2,7 @@
 
 This repository was used to explain web developent to first year engineering students.
 
-Basic codes to learn HTML and CSS 
+Basic codes to learn HTML and CSS:
 
 - **zsg_display1.html** is the file which contains all the html tags with their attributes. 
 
